@@ -1,0 +1,98 @@
+body{ 
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    color: rgb(240, 240, 240);
+}
+
+.bg-grad {
+    background: linear-gradient(135deg, cornflowerblue, darkslateblue);
+}
+
+nav h1 {
+    font-family: "Audiowide", Impact, sans-serif;
+    font-size:x-large;
+    color: white;
+    margin: 0px;
+}
+
+nav a {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navbar-nav a {
+    color: white !important;
+}
+
+.navbar-nav a:hover {
+    color:lightskyblue !important;
+}
+
+.hero {
+    height: 200px;
+    background-color:midnightblue;
+    background-image: url("./images/tech-hero.jpg");
+    background-position: center;
+    background-size: 100%;
+}
+
+.hero2 {
+    height: 100px;
+    background-color:midnightblue;
+    background-image: url("./images/bg_triangles.jpg");
+    background-position: center;
+    background-size: 100%;
+}
+
+.hero2-over {
+    height: 100%;
+    background-color:rgba(6, 5, 32, 0.8);
+}
+
+.services {
+    background: linear-gradient(135deg, cornflowerblue, darkslateblue)
+}
+
+h2 {
+    font-weight: 800;
+}
+
+h2, h4 {
+    text-align: center;
+}
+
+.services > div {
+    background-color: rgba(39, 39, 39, 0.05);
+    border: 4px inset rgba(39, 39, 39, 0.1);
+    border-radius: 25px;
+}
+
+.services i {
+    width: 100%;
+}
+
+.sidebar {
+    min-height: 200px;
+    background-color:midnightblue;
+    background-image: url("./images/office_workers.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+form {
+    background-color: rgba(150, 150, 150, 0.5);
+    border: 3px inset rgba(150, 150, 150, 0.5);
+    border-radius: 25px;
+}
+
+form .btn {
+    border-width: 2px;
+    border-color: black;
+    color: black;
+}
+
+footer {
+    height: 180px;
+    background-color: navy;
+    text-align: center;
+}
